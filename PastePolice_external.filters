@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="kernelmode_proc_handler.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defines.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="kernelmode_proc_handler.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="process_handler.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="utilss.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="fontSF.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="win_utils.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mouseclick.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofcall.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{94c0ece1-8768-4da1-a8f3-10279cbf3825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{722a95f8-1974-4a6c-9e58-23ebae3078ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{3e1d932f-53d8-443b-9cea-4e434bc5359a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3ab959e2-a8ab-4f06-9c91-90d301310d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7ab26667-269f-43da-9126-3e698cd786b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D3XD\d3dx9.lib">
+      <Filter>Main</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
