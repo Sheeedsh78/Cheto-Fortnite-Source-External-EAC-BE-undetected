@@ -531,6 +531,10 @@ void DrawLine(int x1, int y1, int x2, int y2, const ImU32& color, int thickness)
 	ImGui::GetOverlayDrawList()->AddLine(ImVec2(x1, y1), ImVec2(x2, y2), ImGui::GetColorU32(color), thickness);
 }
 
+
+
+
+
 PVOID(__fastcall* FunctionPTR)(PVOID a1, unsigned int a2, PVOID a3, unsigned int a4, PVOID a5);
 
 typedef struct _MEMORY_STRUCT
